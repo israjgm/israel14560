@@ -1,11 +1,11 @@
 /* variables css */
 :root {
-    --primary: #795548;
-    --dark-primary: #4b2c20;
-    --light-primary: #a98274;
-    --secondary: #ff9800;
-    --dark-secondary: #c66900;
-    --light-secondary: #ffc947;
+  --primary: rgb(196 99 132);
+  --dark-primary: rgb(433 40 29);
+    --light-primary: #61aad4;
+    --secondary: #2553eb;
+    --dark-secondary: #08e2c5;
+    --light-secondary: #ffb516;
     --gray: #757575;
     --error: #ca3a41;
     --success: #00600f;
@@ -13,7 +13,7 @@
     --black: #000;
     --height: calc(100vh - 56px);
     --width: 100%;
-    --fontFamily: "Roboto";
+    --fontFamily: "Roboto"
   }
   
   .floating-button {
@@ -39,12 +39,10 @@
     top: 56px;
     background: white;
     text-align: center;
-    /*Agregar a #modal-post-section en app.css*/
     transform: translateY(100vh);
     transition: transform .5s;
   
   }
-
   .svg--container {
     position: relative;
   }
@@ -95,6 +93,7 @@
     padding: 10px;
     width: calc(var(--width) - 20px);
   }
+
   .app--install {
     background: var(--primary);
     color: var(--white) !important;
@@ -115,6 +114,7 @@
     float: right;
     padding: 5px 8px;
   }
+  
   .select-none {
     user-select: none;
   }
